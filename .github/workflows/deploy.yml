@@ -3,10 +3,10 @@ name: Deploy Smartathon-24
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   workflow_dispatch:   # Optional: allows manual trigger from GitHub UI
 
 jobs:
